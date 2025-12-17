@@ -1,0 +1,25 @@
+diff --git a/src/sms.cpp b/src/sms.cpp
+index 1234567..abcdefg 100644
+--- a/src/sms.cpp
++++ b/src/sms.cpp
+@@ -2,6 +2,7 @@
+  * Implementation of common parts amongst all solvers
+  */
+ #include <cmath>
++#include <sstream>
+ #include "sms.hpp"
+ #include "minimalityCheck.hpp"
+
+diff --git a/src/useful.h b/src/useful.h
+index 1234567..abcdefg 100644
+--- a/src/useful.h
++++ b/src/useful.h
+@@ -6,6 +6,8 @@
+ #include <algorithm>
+ #include <cstdint>
+ #include <string>
++#include <sstream>
++#include <iostream>
+
+ using std::vector;
+ // using std::pair;
